@@ -2,6 +2,6 @@ server:
   port: 8443
   ssl:
     key-password: password
-    key-alias: https-example
-    key-store-type: PKCS12
+    key-store-type: JKS
     key-store: classpath:https-example.p12
+    key-store-password: password
